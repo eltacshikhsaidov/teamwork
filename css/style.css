@@ -70,3 +70,80 @@
         font-size: 12px;
     }
 } */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.second {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 1440px;
+}
+
+.top,
+.bottom {
+    display: flex;
+}
+
+.left {
+    padding: 0 190px 94px 121px;
+}
+
+.right {
+    padding: 195px 127px 94px 0;
+}
+
+.heading2 {
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+    width: 365px;
+    height: 93px;
+}
+
+.content2 {
+    font-size: 24px;
+    line-height: 150%;
+    width: 662px;
+    height: 374px;
+}
+
+.person2 {
+    position: absolute;
+    width: 314px;
+    height: 315px;
+    z-index: 1;
+}
+
+.ellipse2 {
+    position: absolute;
+    width: 366px;
+    height: 59px;
+    top: 482px;
+    left: 947px;
+    z-index: 0;
+}
+
+.bottom {
+    padding: 0 317px 0 121px;
+}
+
+.person3 {
+    width: 232px;
+    height: 203px;
+}
+
+.ellipe3 {
+    left: 100px;
+}
+
+.box1 h2, .box2 h2, .box3 h2{
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 130%;
+}
+
+.box1 p, .box2 p, .box3 p {
+    font-size: 18px;
+    line-height: 130%;
+}
