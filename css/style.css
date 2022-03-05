@@ -246,3 +246,86 @@ body{
 .author-quote .author{
     margin: auto;
 }
+
+body{
+    font-family: Roboto;
+}
+
+.container-comment{
+    padding-left: 122px;
+    padding-top: 50px;
+    padding-bottom: 111px;
+    background-color: #EFEFEF;
+}
+
+.comment-header{
+    width: 987px;
+    height: 93px;
+}
+
+.comment-header h2{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+    margin-bottom: 34px;
+}
+
+.user-comment{
+    width: 80%;
+}
+
+.comment{
+    background: #FFFFFF;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    width: 791px;
+    height: 451px;
+    margin-left: 4px;
+}
+
+.comment-p{
+    font-family: Roboto;
+    width: 700px;
+    height: 203px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    padding-top: 40px;
+    padding-left: 45px;
+    margin: 0px;
+}
+
+.user{
+    display: flex;
+    padding-left: 26px;
+}
+
+.img-user{
+    width: 190px;
+    height: 169px;
+}
+
+.img-face{
+    width: 32px;
+    height: 31px;
+}
+
+img{
+    width: 100%;
+}
+
+.user-name{
+    width: 353px;
+    height: 59px;
+}
+
+.user-name p{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 101.38%;
+}
