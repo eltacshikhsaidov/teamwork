@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Slab:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
+
 *{
     font-family: 'Roboto', sans-serif;
 }
@@ -70,7 +73,6 @@
         font-size: 12px;
     }
 } */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 .second {
     font-family: 'Roboto', sans-serif;
@@ -146,4 +148,101 @@
 .box1 p, .box2 p, .box3 p {
     font-size: 18px;
     line-height: 130%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+
+    max-width: 87%;
+    margin: auto;
+}
+.top-logo{
+    width: min(50vw,112px);
+    margin-top: 1.3125em;
+}
+
+.section1{
+    margin-top: 10%;
+}
+
+.course-info {
+    display: flex;
+    margin-bottom: 29px;
+}
+
+.info-logos p{
+    display: inline;
+
+    margin-right: 38px;
+}
+
+.brief-review{
+    display: flex;
+}
+
+.review-text h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 80px;
+
+    width: 628px;
+    height: 190px;
+
+    line-height: 101.38%;
+    margin: 0%;
+}
+
+.review-text p{
+    width: 414px;
+    height: 62px;
+    line-height: 150%;
+    margin: 0%;
+}
+
+.review-images .side-img{
+    position: absolute;
+
+    left: 62.5%;
+    top:223px;
+}
+
+.review-images .ellipse{
+    position: absolute;
+
+    left: 64%;
+    top: 558px;;
+
+}
+
+.author-quote{
+    margin: auto;
+    width: 33.3vw;
+    height: 13.8vw;
+    background: #1E4681;
+    border-radius: 5px;
+    color: white;
+
+    font-style: normal;
+
+    margin-top: 11%;
+    
+}
+
+.author-quote p{
+    margin: auto;
+    padding: 10px;
+}
+
+.author-quote .quote-text{
+    font-size: 25px;
+    line-height: 130%;
+    font-family: 'Roboto Slab', serif;
+    font-weight: normal;
+    font-style: normal;
+
+    
+}
+
+.author-quote .author{
+    margin: auto;
 }
