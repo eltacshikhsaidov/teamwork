@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
 
 * {
     font-family: 'Roboto', sans-serif;
@@ -22,10 +23,12 @@
     font-weight: bold;
     font-size: 55px;
     line-height: 101.38%;
+    font-family: Roboto Slab;
+    padding-bottom: 48px;
     /* or 56px */
     color: #000000;
-    padding-bottom: 18px;
-    height: 93px;
+    /* padding-bottom: 18px; */
+    /* height: 93px; */
 }
 
 .content2 {
@@ -35,21 +38,20 @@
     color: #000000;
 }
 
-.left{
-    /* background-color: green; */
-}
-
 .right {
     /* background-color: brown; */
     padding-top: 135px;
     padding-left: 164px;
+
+    width: 304px;
+    height: 356px;
 }
 
 .bottom {
     /* background-color: gray; */
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-top: 52px;
 }
 
@@ -64,6 +66,7 @@
     line-height: 130%;
     /* or 32px */
     color: #000000;
+    padding-bottom: 10px;
 }
 
 .box p {
@@ -106,95 +109,143 @@
     flex-direction: column;
 }
 
-
-
-/* .second {
-    padding: 0 153px 0 121px;
-    margin: 0;
-    box-sizing: border-box;
-    max-width: 1440px;
-}
-
-.top,
-.bottom {
-    display: flex;
-}
-
-.left {
-    padding: 0 190px 94px 121px;
-}
-
-.right {
-    padding: 195px 127px 94px 0;
-}
-
-.heading2 {
-    font-weight: bold;
-    font-size: 55px;
-    line-height: 101.38%;
-    width: 365px;
-    height: 93px;
-}
-
-.content2 {
-    font-size: 24px;
-    line-height: 150%;
-    width: 662px;
-    height: 374px;
-}
-
-.person2 {
-    position: absolute;
-    width: 314px;
-    height: 315px;
-    z-index: 1;
-}
-
-.ellipse2 {
-    position: absolute;
-    width: 366px;
-    height: 59px;
-    top: 482px;
-    left: 947px;
-    z-index: 0;
-}
-
-.bottom {
-    padding: 0 317px 0 121px;
-}
-
-.person3 {
-    width: 232px;
-    height: 203px;
-}
-
-.ellipe3 {
-    left: 100px;
-}
-
-.box1 h2, .box2 h2, .box3 h2{
-    font-weight: bold;
-    font-size: 25px;
-    line-height: 130%;
-}
-
-.box1 p, .box2 p, .box3 p {
-    font-size: 18px;
-    line-height: 130%;
-} */
-
-
 /* design for tablet mode */
 
-@media screen and (max-width: 834px) {
+@media screen and (max-width: 1279px) {
+    .heading2 {
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 101.38%;
+        /* or 32px */
+        color: #000000;
+        padding-bottom: 30px;
+    }
 
+    .content2 {
+        font-size: 14px;
+        line-height: 150%;
+        color: #000000;
+    }
+
+    .right {
+        width: 181.86px;
+        height: 182.44px;
+        padding-top: 75px;
+        padding-left: 95px;
+    }
+
+    .ellipse2 {
+        margin-top: -15px;
+        margin-right: -12px;
+    }
+
+    /* bottom */
+
+    .box p {
+        font-size: 11px;
+        line-height: 130%;
+        /* or 14px */
+        color: #000000;
+    }
+
+    .box h2 {
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 130%;
+        /* or 19px */
+
+
+        color: #000000;
+        padding-bottom: 5px;
+    }
+
+    .person3 {
+        width: 134.37px;
+        height: 117.57px;
+    }
+
+    .ellipse3 {
+        width: 109.46px;
+        height: 18.53px;
+        margin-top: -10px;
+        margin-left: -12px;
+    }
+
+    .box {
+        padding-right: 15px;
+    }
+
+    .box3 {
+        margin-right: 85px;
+    }
 }
 
 
 
 /* design for mobile mode */
 
-@media screen and (max-width: 375px) {
-    
+@media screen and (max-width: 991px) {
+
+    .second {
+        padding: 0 30.53px 0 36px;
+    }
+
+    .heading2 {
+        font-family: Roboto Slab;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 101.38%;
+        padding-bottom: 20px;
+    }
+
+    .content2{
+        font-size: 12px;
+        line-height: 150%;
+    }
+
+    .top {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .person2 {
+        width: 146.32px;
+        height: 146.78px;
+    }
+
+    .ellipse2 {
+        margin-right: 12px;
+    }
+
+    /* bottom */
+
+    .images {
+        display: none;
+    }
+
+    .bottom {
+        padding: 0;
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+
+    .box {
+        width: 86.89px;
+        height: 18.5px;
+        padding-top: 46px;
+    }
+
+    .box p {
+        font-size: 10px;
+        line-height: 130%;
+        color: #000000;
+    }
+
+    .box h2 {
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 130%;
+    }
 }
 
