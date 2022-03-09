@@ -24,7 +24,7 @@
     font-weight: bold;
     font-size: 55px;
     line-height: 101.38%;
-    font-family: Roboto Slab;
+    font-family: 'Roboto Slab';
     padding-bottom: 48px;
 }
 
@@ -218,7 +218,7 @@
     }
 
     .heading2 {
-        font-family: Roboto Slab;
+        font-family: 'Roboto Slab';
         font-weight: bold;
         font-size: 26px;
         line-height: 101.38%;
