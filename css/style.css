@@ -6,7 +6,7 @@
     /* box-sizing: border-box; */
     font-family: 'Roboto', sans-serif;
     /* font-size: 1.38vw; */
-    font-size: max(1.38vw, 10px);
+    font-size: clamp(16px, 1.38vw, 20px);
 }
 
 
