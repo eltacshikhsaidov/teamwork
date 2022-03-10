@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,500;0,600;0,900;1,200&family=Roboto+Slab:wght@300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.38vw;
+}
+
+
+/* Jalal */
+
+.wrapper {
+    max-width: 84%;
+    margin: 0 auto;
+}
+
+
+/* HEADER */
+
+header {
+    margin-top: 16px;
+}
+
+header .logo {
+    width: 7.8vw;
+    min-width: 52px;
+}
+
+
+/* HERO SECTION */
+
+.hero-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+}
+
+.hero-content {
+    margin-left: 1.8%;
+}
+
+
+/* hero content */
+
+.content-top {
+    display: flex;
+    margin-left: -1.25rem;
+    margin-right: -1.25rem;
+}
+
+.column {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.content-top .top-logo {
+    width: 1.1rem;
+    margin-right: 0.3rem;
+}
+
+.row p {
+    display: inline;
+}
+
+.hero-section .content-review h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 5.6vw;
+    line-height: 101.38%;
+    margin-top: 1.5rem;
+    margin-bottom: 1.2rem;
+}
+
+.hero-section .content-review p {
+    line-height: 150%;
+}
+
+
+/* hero image */
+
+.hero-image .image-container {
+    position: relative;
+    display: inline-block;
+    top: 9.5%;
+    left: 13.5vw;
+}
+
+.hero-side-image {
+    width: 21vw;
+    min-width: 141px;
+    max-width: 305px;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.image-shadow-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.side-image-shadow {
+    position: absolute;
+    width: 21vw;
+    max-width: 274px;
+    z-index: 0;
+}
+
+
+/* BLOCKQUOTE */
+
+.blockquote {
+    margin-top: 100px;
+    box-sizing: border-box;
+    background: #1E4681;
+    color: white;
+    border-radius: 5px;
+    width: calc(100vw/3);
+    max-width: 483.63px;
+    min-width: 225px;
+    max-height: 200px;
+    padding: 1.25rem;
+    margin: 177px auto;
+    margin-bottom: 0;
+}
+
+.blockquote .quote {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.73vw;
+    font-weight: normal;
+    line-height: 130%;
+}
+
+.blockquote .author {
+    line-height: 130%;
+    text-align: right;
+}
+
+
+/* Jalal end */
+
+
+/* Screen Adaptation */
+
+@media screen and (max-width: 1279px) {
+    * {
+        font-size: 12px;
+        font-size: 1.43vw;
+    }
+    header {
+        margin-top: 22px;
+    }
+    .blockquote {
+        margin-top: 70px;
+    }
+}
+
+@media screen and (max-width: 991px) and (min-width: 320px) {
+    * {
+        font-size: max(2vw, 10px);
+    }
+    header {
+        margin-top: 36px;
+    }
+    .hero-section .content-review h1 {
+        font-size: max(9.9vw, 37px);
+    }
+    .hero-section {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .hero-image .image-container {
+        left: 40vw;
+    }
+    .blockquote {
+        margin-top: 50px;
+        margin-left: 0;
+    }
+    .blockquote .quote {
+        font-size: 11px;
+    }
+    .blockquote .author {
+        font-size: 10px;
+    }
+}
