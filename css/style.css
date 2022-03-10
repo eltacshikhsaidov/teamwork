@@ -151,7 +151,7 @@ header .logo {
 
 .second {
     padding: 0 153px 0 121px;
-    margin: 173px 0 0 0;
+    margin: 173px 0 250px 0;
 }
 
 .top,
@@ -266,6 +266,78 @@ header .logo {
     line-height: 130%;
 }
 
+/* Eltac end */
+
+/* Arzu start */
+
+.container-a{
+    padding: 0 87px;
+}
+
+.text-top-a h2{
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+    margin-bottom: 133px;
+    margin-left: 34px;
+}
+
+.box-main-a{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+span{
+    display: block;
+}
+
+.box-a{
+    width: 29%;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 44px;
+    margin-left: 37px;
+    margin-bottom: 41px;
+}
+
+.text-a{
+    padding: 0px 18px;
+}
+
+.text-a h3{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 8px;
+}
+
+.text-a p{
+    font-size: 25px;
+    margin: 27px 0;
+}
+
+.last-p{
+    margin-top: -18px;
+}
+
+.last-h3{
+    line-height: 97%;
+}
+
+
+.image-a{
+    width: 100%;
+}
+
+.image-a img{
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+/* Arzu end */
+
 
 /* Screen Adaptation */
 
@@ -283,6 +355,7 @@ header .logo {
     /* Eltac start */
     .second {
         margin-top: 100px;
+        margin-bottom: 100px;
     }
     .heading2 {
         font-weight: bold;
@@ -343,6 +416,42 @@ header .logo {
         line-height: 130%;
     }
     /* Eltac end  */
+
+    /* Arzu start */
+
+    .text-top-a h2{
+        font-size: 32px;
+        margin-bottom: 77px;
+        margin-left: 24px;
+    }
+    .box-a{
+        background: #FFFFFF;
+        box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
+        border-radius: 28px;
+        margin-left: 22px;
+        margin-bottom: 24px;
+    }
+    .text-a h3{
+        font-size: 17px;
+    }
+    
+    .text-a p{
+        font-size: 14px;
+        margin: 21px 0;
+    }
+    .image-a img{
+        border-top-left-radius: 28px;
+        border-top-right-radius: 28px;
+    }
+    .container-a{
+        padding: 0 95px;
+    }
+    .text-a{
+        padding: 0px 9px;
+    }
+
+    /* Arzu end */
+    
 }
 
 @media screen and (max-width: 991px) and (min-width: 320px) {
@@ -380,6 +489,7 @@ header .logo {
     .second {
         padding: 0 30.53px 0 36px;
         margin-top: 75px;
+        
     }
     .heading2 {
         font-family: 'Roboto Slab';
@@ -450,4 +560,44 @@ header .logo {
         margin-bottom: 40px;
     }
     /* Eltac end */
+
+    /* Arzu start */
+
+    .container-a{
+        padding: 0 50px;
+    }
+    .text-top-a h2{
+        font-size: 26px;
+        margin-bottom: 35px;
+        margin-left: 0;
+    }
+    .box-a{
+        width: 60%;
+        background: #FFFFFF;
+        box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
+        border-radius: 23px;
+    }
+   .box-main-a{
+       justify-content: center;
+   }
+    .text-a h3{
+        font-size: 14px;
+    }
+    .text-a{
+        padding:0 15px;
+        height: 14vh;
+    }
+    .text-a p{
+        font-size: 12px;
+        margin: 10px 0;
+    }
+    .image-a img{
+        border-top-left-radius: 17.375px;
+        border-top-right-radius: 17.375px;
+    }
+    .last-p{
+        margin-top: 0;
+    }
+
+    /* Arzu end */
 }
