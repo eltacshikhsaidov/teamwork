@@ -1,98 +1,185 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@400;500;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Slab:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
-body{
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,500;0,600;0,900;1,200&family=Roboto+Slab:wght@300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-
-    max-width: 87%;
-    margin: auto;
-}
-.top-logo{
-    width: min(50vw,112px);
-    margin-top: 1.3125em;
+    font-size: 1.38vw;
 }
 
-.section1{
-    margin-top: 10%;
+.wrapper{
+    max-width: 84%; 
+    margin: 0 auto;
 }
 
-.course-info {
+/* HEADER */
+header{
+    margin-top: 16px;
+}
+
+header .logo{
+    width: 7.8vw;
+    min-width: 52px;
+}
+
+
+/* HERO SECTION */
+.hero-section{
     display: flex;
-    margin-bottom: 29px;
+    flex-wrap: wrap;
+    margin-top: 5rem;
 }
 
-.info-logos p{
+.hero-content{
+    margin-left: 1.8%;
+}
+
+/* hero content */
+.content-top{
+    display: flex;
+    margin-left: -1.25rem;
+    margin-right: -1.25rem;
+}
+
+.column{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.content-top .top-logo{
+    width: 1.1rem;
+    margin-right: 0.3rem;
+}
+
+.row p{
     display: inline;
-
-    margin-right: 38px;
 }
 
-.brief-review{
-    display: flex;
-}
-
-.review-text h1{
+.hero-section .content-review h1{
     font-family: 'Roboto Slab', serif;
-    font-size: 80px;
-
-    width: 628px;
-    height: 190px;
-
+    font-size: 5.6vw;
     line-height: 101.38%;
-    margin: 0%;
+    margin-top: 1.5rem;
+    margin-bottom: 1.2rem;
 }
 
-.review-text p{
-    width: 414px;
-    height: 62px;
+.hero-section .content-review p{
     line-height: 150%;
-    margin: 0%;
 }
 
-.review-images .side-img{
+/* hero image */
+.hero-image .image-container{
+    position: relative;
+    display: inline-block;
+    top:9.5%;
+    left: 13.5vw;
+}
+
+.hero-side-image{
+    width: 21vw;
+    min-width: 141px;
+    max-width: 305px;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.image-shadow-container {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+ }
+
+.side-image-shadow{
     position: absolute;
-
-    left: 62.5%;
-    top:223px;
+    width: 21vw;
+    max-width: 274px;
+    z-index: 0;
 }
 
-.review-images .ellipse{
-    position: absolute;
 
-    left: 64%;
-    top: 558px;;
-
-}
-
-.author-quote{
-    margin: auto;
-    width: 33.3vw;
-    height: 13.8vw;
+/* BLOCKQUOTE */
+.blockquote{
+    margin-top: 100px;
+    box-sizing: border-box;
     background: #1E4681;
-    border-radius: 5px;
     color: white;
+    border-radius: 5px;
 
-    font-style: normal;
+    width: calc(100vw/3);
+    max-width: 483.63px;
+    min-width: 225px;
+    max-height: 200px;
+    padding: 1.25rem;
 
-    margin-top: 11%;
-    
+    margin: 177px auto;
+    margin-bottom: 0;
 }
 
-.author-quote p{
-    margin: auto;
-    padding: 10px;
-}
-
-.author-quote .quote-text{
-    font-size: 25px;
-    line-height: 130%;
+.blockquote .quote{
     font-family: 'Roboto Slab', serif;
+    font-size: 1.73vw;
     font-weight: normal;
-    font-style: normal;
-
-    
+    line-height: 130%;
 }
 
-.author-quote .author{
-    margin: auto;
+.blockquote .author{
+    line-height: 130%;
+    text-align: right;
+}
+
+/* Screen Adaptation */
+@media screen and (max-width: 1279px) {
+    *{
+        font-size: 12px;
+        font-size: 1.43vw;
+    }
+
+    header{
+        margin-top: 22px;
+    }
+
+    .blockquote{
+        margin-top: 70px;
+    }
+}
+
+@media screen and (max-width: 991px) and (min-width: 320px) {
+    *{
+        font-size: max(2vw,10px);
+    }
+
+    header{
+        margin-top: 36px;
+    }
+
+    .hero-section .content-review h1{
+        font-size: max(9.9vw,37px);
+    }
+
+    .hero-section{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .hero-image .image-container{
+        left: 40vw;
+    }
+    
+    .blockquote{
+        margin-top: 50px;
+        margin-left: 0;
+    }
+
+    .blockquote .quote{
+        font-size: 11px;
+    }
+
+    .blockquote .author{
+        font-size: 10px;
+    }
 }
