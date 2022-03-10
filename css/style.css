@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@400;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,500;0,600;0,900;1,200&family=Roboto+Slab:wght@300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     font-family: 'Roboto', sans-serif;
     font-size: 1.38vw;
 }
@@ -142,6 +143,125 @@ header .logo {
 
 /* Jalal end */
 
+/* Eltac start */
+
+/*=========================== DESIGN FOR DESKTOP LAYOUT ===================================*/
+
+.second {
+    padding: 0 153px 0 121px;
+    margin: 173px 0 0 0;
+}
+
+.top, .bottom, .boxes {
+    display: flex;
+}
+
+.heading2 {
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+    font-family: 'Roboto Slab';
+    padding-bottom: 48px;
+}
+
+.content2 {
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.right {
+    padding-top: 135px;
+    padding-left: 164px;
+    width: 304px;
+    height: 356px;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 52px;
+}
+
+.box {
+    height: 39px;
+    width: 150px;
+}
+
+.box h2 {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 130%;
+    padding-bottom: 10px;
+}
+
+.box p {
+    font-size: 18px;
+    line-height: 130%;
+}
+
+.box3 {
+    padding-right: calc(317px - 153px);
+}
+
+.person3 {
+    z-index: 1;
+}
+
+.ellipse3 {
+    padding-left: calc(154px - 121px);
+    z-index: 0;
+    margin-top: -15px;
+}
+
+.person2 {
+    padding-left: 10px;
+    z-index: 1;
+}
+
+.ellipse2 {
+    z-index: 0;
+    margin-top: -30px;
+    margin-right: -15px;
+}
+
+.images {
+    padding-right: 50px;
+}
+
+.images, .right {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-container {
+    margin-top: 162px;
+}
+
+.bottom-box {
+    padding-right: 122px;
+    height: 39px;
+    width: 271px;
+}
+
+.boxes {
+    flex-wrap: nowrap;
+}
+
+.bottom-box h2 {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 130%;
+    padding-bottom: 10px;
+    color: #1E4681;
+}
+
+.bottom-box p {
+    font-size: 18px;
+    line-height: 130%;
+}
+
+
 
 /* Screen Adaptation */
 
@@ -156,6 +276,85 @@ header .logo {
     .blockquote {
         margin-top: 70px;
     }
+
+    /* Eltac start */
+
+    .second {
+        margin-top: 100px;
+    }
+    .heading2 {
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 101.38%;
+        padding-bottom: 30px;
+    }
+
+    .content2 {
+        font-size: 14px;
+        line-height: 150%;
+    }
+
+    .right {
+        width: 181.86px;
+        height: 182.44px;
+        padding-top: 75px;
+        padding-left: 95px;
+    }
+
+    .ellipse2 {
+        margin-top: -15px;
+        margin-right: -12px;
+    }
+
+    /* bottom */
+
+    .box p {
+        font-size: 11px;
+        line-height: 130%;
+    }
+
+    .box h2 {
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 130%;
+        padding-bottom: 5px;
+    }
+
+    .person3 {
+        width: 134.37px;
+        height: 117.57px;
+    }
+
+    .ellipse3 {
+        width: 109.46px;
+        height: 18.53px;
+        margin-top: -10px;
+        margin-left: -12px;
+    }
+
+    .box {
+        padding-right: 15px;
+    }
+
+    .box3 {
+        margin-right: 85px;
+    }
+
+    .bottom-container {
+        margin-top: 104px;
+    }
+
+    .bottom-box p {
+        font-size: 11px;
+        line-height: 130%;
+    }
+
+    .bottom-box h2 {
+        font-size: 15px;
+        line-height: 130%;
+    }
+
+    /* Eltac end  */
 }
 
 @media screen and (max-width: 991px) and (min-width: 320px) {
@@ -186,4 +385,102 @@ header .logo {
     .blockquote .author {
         font-size: 10px;
     }
+
+    /* Eltac start */
+
+    .right {
+        padding-left: 0;
+    }
+
+    .second {
+        padding: 0 30.53px 0 36px;
+        margin-top: 75px;
+    }
+
+    .heading2 {
+        font-family: 'Roboto Slab';
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 101.38%;
+        padding-bottom: 20px;
+    }
+
+    .content2{
+        font-size: 12px;
+        line-height: 150%;
+    }
+
+    .top {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .person2 {
+        width: 146.32px;
+        height: 146.78px;
+    }
+
+    .ellipse2 {
+        margin-right: 12px;
+    }
+
+    /* bottom */
+
+    .images {
+        display: none;
+    }
+
+    .bottom {
+        padding: 0;
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+
+    .box {
+        width: 86.89px;
+        height: 18.5px;
+        padding-top: 46px;
+    }
+
+    .box p {
+        font-size: 10px;
+        line-height: 130%;
+    }
+
+    .box h2 {
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 130%;
+    }
+
+    .bottom-container {
+        margin-top: 76px;
+    }
+
+    /* .bottom-box {
+        height: 18;
+        width: 86;
+    } */
+
+    .bottom-box p {
+        font-size: 10px;
+        line-height: 130%;
+    }
+
+    .bottom-box h2 {
+        font-size: 12px;
+        line-height: 130%;
+    }
+
+    .boxes {
+        flex-wrap: wrap;
+    }
+
+    .bottom-box {
+        padding-right: 50px;
+        margin-bottom: 40px;
+    }
+
+    /* Eltac end */
 }
