@@ -19,7 +19,6 @@ body{
 
 .comment-header{
     width: 987px;
-    /* height: 93px; */
 }
 
 .comment-header h2{
@@ -30,10 +29,6 @@ body{
     line-height: 101.38%;
     margin-bottom: 71px;
 }
-
-/* .user-comment{
-    width: 80%;
-} */
 
 .comment{
     background: #FFFFFF;
@@ -92,127 +87,6 @@ body{
     font-size: 30px;
     line-height: 101.38%;
 }
-@media screen and (max-width: 1279px) and (min-width:992px) {
-
-    .container-comment{
-        padding-left: 70px;
-        padding-top: 54px;
-        padding-bottom: 64px;
-    }
-
-    .comment-header{
-        width:  571.64px;
-    }
-
-    .comment-header h2{
-        font-size: 32px;
-        margin-bottom: 42px;
-    }
-
-    .comment{
-        box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
-        border-radius: 17.375px;
-        width: 458.12px;
-        height: 261.2px;
-        margin-left: 3px;
-    }
-
-    .comment-p{
-        font-size: 12px;
-        width: 405.42px;
-        height: 117.57px;
-        padding-left: 26px;
-        padding-top: 23px;
-    }
-
-    .user{
-        margin-left: 16px;
-        margin-top: 5px;
-    }
-
-    .img-user{
-        width: 110px;
-        padding-right: 5px;
-    }
-
-    .img-face{
-        width: 18.53px;
-        height: 17.95px;
-        margin-top: 17px;
-    }
-
-    .user-name p{
-        font-size: 17px;
-    }
-
-    .user-name{
-        width: 204.45px;
-        margin-top: 23px;
-        padding-left: 11px;
-    }
-}
-
-@media screen and (max-width: 991px) and (min-width:320px){
-   
-    .container-comment{
-        padding-left: 0px;
-        padding-top: 42px;
-        padding-bottom: 53px;
-        display: flex;
-        justify-content: center;
-    }
-    .comment-header h2{
-        font-size: 26px;
-        margin-bottom: 27px;
-    }
-
-    .user{
-        margin-left: 12px;
-        margin-top: 22px;
-        /* justify-content: space-between; */
-    }
-
-    .user-name{
-        width: 164.49px;
-        margin-top: 18px;
-        padding-left: 2px
-    }
-
-    .comment-header{
-        width: 257px;
-    }
-
-    .comment{
-        width: 308px;
-        height: 248px;
-        box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
-        border-radius: 13.9792px;
-        margin-left: 2px;
-    }
-
-    .comment-p{
-        font-size: 10px;
-        width: 266px;
-        height: 111.01px;
-        padding-left: 20px;
-        padding-top: 18px
-    }
-
-    .img-user{
-        width: 94px;
-        padding-right: 5px;
-    }
-
-    .user-name p{
-        font-size: 14px;
-    }
-
-    .img-face{
-        width: 15px;
-        margin-top: 19px;
-    }
-}
-
 
 .container-other{
     background-color: #9DC9C8;
@@ -270,114 +144,6 @@ body{
 .come-through{
     padding-left: 70px;
 }
-
-@media screen and (max-width: 1279px) and (min-width:992px){
-    .container-other{
-        padding-left: 70px;
-        padding-top: 104px;
-        padding-bottom: 118px;
-    }
-
-    .start-date h2{
-        font-size: 32px;
-    }
-
-    .start-date{
-        margin-bottom: 38px;
-    }
-
-    .price-info p{
-        font-size: 14px;
-    }
-
-    .price{
-        font-size: 46px !important;
-        margin-top: 2px;
-    }
-
-    .info-level{
-        font-size: 14px;
-    }
-
-    .info-course{
-        font-size: 10px;
-    }
-
-    .about-course{
-        margin-top: 45px;
-    }
-
-    .info-left, .come-through{
-        width: 163px;
-    }
-
-    .come-through{
-        padding-left: 49px;
-    }
-    
-    .info-level{
-        margin-bottom: 8px;
-    }
-}
-
-
-@media screen and (max-width: 991px) and (min-width:320px){
-    .container-other{
-        padding-left: 2px;
-        padding-top: 62px;
-        padding-bottom: 70px;
-        display: flex;
-        justify-content: center;
-    }
-
-    .start-date h2{
-        font-size: 26px;
-    }
-
-    .start-date{
-        width: 224px;
-        margin-bottom: 34px;
-    }
-
-    .price-info p{
-        font-size: 12px;
-    }
-
-    .price{
-        font-size: 37px !important;
-        margin-top: 2px;
-    }
-
-    .info-level{
-        font-size: 12px;
-        margin-bottom: 6px;
-    }
-
-    .info-course{
-        font-size: 10px;
-    }
-
-    .about-course{
-        margin-top: 35px;
-        width: 309px;
-        justify-content: space-between;
-    }
-
-    .info-left, .come-through{
-        width: 137px;
-    }
-
-
-    .come-through{
-        padding-left: 0px;
-        padding-right: 4px;
-    }
-
-    .info-course{
-        width: 140px;
-    }
-}
-
 
 .last-container{
     background-color: black;
@@ -493,6 +259,110 @@ body{
     .last p{
         font-size: 10px;
     }
+
+    .container-comment{
+        padding-left: 70px;
+        padding-top: 54px;
+        padding-bottom: 64px;
+    }
+
+    .comment-header{
+        width:  571.64px;
+    }
+
+    .comment-header h2{
+        font-size: 32px;
+        margin-bottom: 42px;
+    }
+
+    .comment{
+        box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
+        border-radius: 17.375px;
+        width: 458.12px;
+        height: 261.2px;
+        margin-left: 3px;
+    }
+
+    .comment-p{
+        font-size: 12px;
+        width: 405.42px;
+        height: 117.57px;
+        padding-left: 26px;
+        padding-top: 23px;
+    }
+
+    .user{
+        margin-left: 16px;
+        margin-top: 5px;
+    }
+
+    .img-user{
+        width: 110px;
+        padding-right: 5px;
+    }
+
+    .img-face{
+        width: 18.53px;
+        height: 17.95px;
+        margin-top: 17px;
+    }
+
+    .user-name p{
+        font-size: 17px;
+    }
+
+    .user-name{
+        width: 204.45px;
+        margin-top: 23px;
+        padding-left: 11px;
+    }
+
+    .container-other{
+        padding-left: 70px;
+        padding-top: 104px;
+        padding-bottom: 118px;
+    }
+
+    .start-date h2{
+        font-size: 32px;
+    }
+
+    .start-date{
+        margin-bottom: 38px;
+    }
+
+    .price-info p{
+        font-size: 14px;
+    }
+
+    .price{
+        font-size: 46px !important;
+        margin-top: 2px;
+    }
+
+    .info-level{
+        font-size: 14px;
+    }
+
+    .info-course{
+        font-size: 10px;
+    }
+
+    .about-course{
+        margin-top: 45px;
+    }
+
+    .info-left, .come-through{
+        width: 163px;
+    }
+
+    .come-through{
+        padding-left: 49px;
+    }
+    
+    .info-level{
+        margin-bottom: 8px;
+    }
 }
 
 @media screen and (max-width: 991px) and (min-width:320px){
@@ -565,5 +435,118 @@ body{
 
     .last p{
         font-size: 10px;
+    }
+
+    .container-comment{
+        padding-left: 0px;
+        padding-top: 42px;
+        padding-bottom: 53px;
+        display: flex;
+        justify-content: center;
+    }
+    .comment-header h2{
+        font-size: 26px;
+        margin-bottom: 27px;
+    }
+
+    .user{
+        margin-left: 12px;
+        margin-top: 22px;
+        /* justify-content: space-between; */
+    }
+
+    .user-name{
+        width: 164.49px;
+        margin-top: 18px;
+        padding-left: 2px
+    }
+
+    .comment-header{
+        width: 257px;
+    }
+
+    .comment{
+        width: 308px;
+        height: 248px;
+        box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
+        border-radius: 13.9792px;
+        margin-left: 2px;
+    }
+
+    .comment-p{
+        font-size: 10px;
+        width: 266px;
+        height: 111.01px;
+        padding-left: 20px;
+        padding-top: 18px
+    }
+
+    .img-user{
+        width: 94px;
+        padding-right: 5px;
+    }
+
+    .user-name p{
+        font-size: 14px;
+    }
+
+    .img-face{
+        width: 15px;
+        margin-top: 19px;
+    }
+
+    .container-other{
+        padding-left: 2px;
+        padding-top: 62px;
+        padding-bottom: 70px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .start-date h2{
+        font-size: 26px;
+    }
+
+    .start-date{
+        width: 224px;
+        margin-bottom: 34px;
+    }
+
+    .price-info p{
+        font-size: 12px;
+    }
+
+    .price{
+        font-size: 37px !important;
+        margin-top: 2px;
+    }
+
+    .info-level{
+        font-size: 12px;
+        margin-bottom: 6px;
+    }
+
+    .info-course{
+        font-size: 10px;
+    }
+
+    .about-course{
+        margin-top: 35px;
+        width: 309px;
+        justify-content: space-between;
+    }
+
+    .info-left, .come-through{
+        width: 137px;
+    }
+
+
+    .come-through{
+        padding-left: 0px;
+        padding-right: 4px;
+    }
+
+    .info-course{
+        width: 140px;
     }
 }
