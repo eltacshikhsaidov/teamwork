@@ -165,7 +165,7 @@ header .logo {
     font-size: 55px;
     line-height: 101.38%;
     font-family: 'Roboto Slab';
-    padding-bottom: 48px;
+    padding-bottom: 89px;
 }
 
 .content2 {
@@ -338,6 +338,203 @@ span{
 
 /* Arzu end */
 
+/* Senem start */
+.container-comment{
+    padding-left: 121px;
+    padding-top: 92px;
+    padding-bottom: 111px;
+    background-color: #EFEFEF;
+}
+
+.comment-header{
+    width: 987px;
+}
+
+.comment-header h2{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+    margin-bottom: 71px;
+}
+
+.comment{
+    background: #FFFFFF;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    width: 791px;
+    height: 451px;
+    margin-left: 4px;
+}
+
+.comment-p{
+    font-family: Roboto;
+    width: 700px;
+    height: 203px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    padding-top: 40px;
+    padding-left: 45px;
+    margin: 0px;
+}
+
+.user{
+    display: flex;
+    margin-left: 26px;
+    margin-top: 10px;
+}
+
+.img-user{
+    width: 190px;
+    height: 169px;
+    padding-right: 31px;
+}
+
+.img-face{
+    width: 32px;
+    height: 31px;
+    margin-top: 28px;
+}
+
+.image4{
+    width: 100%;
+}
+
+.user-name{
+    width: 353px;
+    height: 59px;
+    margin-top: 41px;
+}
+
+.user-name p{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 101.38%;
+}
+
+.container-other{
+    background-color: #9DC9C8;
+    padding-left: 121px;
+    padding-top: 180px;
+    padding-bottom: 200px;
+}
+
+.start-date h2{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+    /* margin-bottom: 64px; */
+}
+
+.start-date{
+    margin-bottom: 64px;
+}
+
+.price-info p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 101.38%;
+}
+
+.price{
+    font-size: 80px !important;
+    margin-top: 6px;
+}
+
+.about-course{
+    display: flex;
+    margin-top: 74px;
+}
+
+.info-level{
+    font-size: 25px;
+    margin-bottom: 15px;
+    line-height: 101.38%;
+}
+
+.info-course{
+    font-size: 18px;
+    line-height: 101.38%;
+}
+
+.info-left, .come-through{
+    width: 294px;
+}
+
+.come-through{
+    padding-left: 70px;
+}
+
+.last-container{
+    background-color: black;
+    color: white;
+    padding-left: 121px;
+    padding-top: 50px;
+    padding-bottom: 43px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-one{
+    width: 115px;
+}
+
+.logo-one img{
+    width: 100%;
+}
+
+.sosial-media{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 26px;
+    margin-bottom: 140px;
+} 
+
+.contact-right{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 88px;
+    padding-top: 6px;
+}
+
+.phone{
+    margin-bottom: 20px;
+}
+
+.contact p{
+    font-size: 25px;
+}
+
+.sosial-media img{
+    margin-right: 21px;
+}
+
+.last p{
+    font-size: 18px;
+}
+
+.contact-logo{
+    margin-right: 20px;
+}
+
+.contact p:first-child{
+    padding-bottom: 13px;
+}
+
+/* Senem end */
+
 
 /* Screen Adaptation */
 
@@ -361,7 +558,7 @@ span{
         font-weight: bold;
         font-size: 32px;
         line-height: 101.38%;
-        padding-bottom: 30px;
+        padding-bottom: 52px;
     }
     .content2 {
         font-size: 14px;
@@ -451,6 +648,168 @@ span{
     }
 
     /* Arzu end */
+
+    /* Senem start */
+    .last-container{
+        padding-left: 72px;
+        padding-top: 29px;
+        padding-bottom: 26px;
+    }
+
+    .sosial-media{
+        margin-top: 14px;
+        margin-bottom: 78px;
+        justify-content: space-between;
+    } 
+
+    .footer img{
+        width: 100%;
+    }
+
+    .logo-one{
+        width: 66.6px;
+    }
+
+    .instagram, .facebook, .vk, .whatsapp{
+        width: 19.69px;
+        margin-right: 11px;
+    }
+
+    .contact-right{
+        padding-right: 340px;
+        padding-top: 4px;
+    }
+
+    .phone{
+        margin-bottom: 5px;
+    }
+
+    .contact-logo{
+        margin-right: 13px;
+    }
+
+    .contact p:first-child{
+        padding-bottom: 9px;
+    }
+
+    .phone, .mail{
+        width: 15.64px;   
+    }
+
+    .contact p{
+        font-size: 14px;
+    }
+
+    .last p{
+        font-size: 10px;
+    }
+
+    .container-comment{
+        padding-left: 70px;
+        padding-top: 54px;
+        padding-bottom: 64px;
+    }
+
+    .comment-header{
+        width:  571.64px;
+    }
+
+    .comment-header h2{
+        font-size: 32px;
+        margin-bottom: 42px;
+    }
+
+    .comment{
+        box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
+        border-radius: 17.375px;
+        width: 458.12px;
+        height: 261.2px;
+        margin-left: 3px;
+    }
+
+    .comment-p{
+        font-size: 12px;
+        width: 405.42px;
+        height: 117.57px;
+        padding-left: 26px;
+        padding-top: 23px;
+    }
+
+    .user{
+        margin-left: 16px;
+        margin-top: 5px;
+    }
+
+    .img-user{
+        width: 110px;
+        padding-right: 5px;
+    }
+
+    .img-face{
+        width: 18.53px;
+        height: 17.95px;
+        margin-top: 17px;
+    }
+
+    .user-name p{
+        font-size: 17px;
+    }
+
+    .user-name{
+        width: 204.45px;
+        margin-top: 23px;
+        padding-left: 11px;
+    }
+
+    .container-other{
+        padding-left: 70px;
+        padding-top: 104px;
+        padding-bottom: 118px;
+    }
+
+    .start-date h2{
+        font-size: 32px;
+    }
+
+    .start-date{
+        margin-bottom: 38px;
+    }
+
+    .price-info p{
+        font-size: 14px;
+    }
+
+    .price{
+        font-size: 46px !important;
+        margin-top: 2px;
+    }
+
+    .info-level{
+        font-size: 14px;
+    }
+
+    .info-course{
+        font-size: 10px;
+    }
+
+    .about-course{
+        margin-top: 45px;
+    }
+
+    .info-left, .come-through{
+        width: 163px;
+    }
+
+    .come-through{
+        padding-left: 49px;
+    }
+    
+    .info-level{
+        margin-bottom: 8px;
+ 
+   }
+
+    /* Senem end */
     
 }
 
@@ -496,7 +855,7 @@ span{
         font-weight: bold;
         font-size: 26px;
         line-height: 101.38%;
-        padding-bottom: 20px;
+        padding-bottom: 36px;
     }
     .content2 {
         font-size: 12px;
@@ -600,4 +959,189 @@ span{
     }
 
     /* Arzu end */
+
+    /* Senem start */
+    .last-container{
+        display: flex;
+        justify-content: center;
+        padding-left: 0px;
+        padding-top: 23px;
+        padding-bottom: 19px;
+    }
+
+    .wrapper-footer{
+        width: 300px;
+    }
+
+    .sosial-media{
+        margin: 0px;
+        margin-top: 11px;
+        margin-bottom: 40px;
+        justify-content: start;
+    }
+
+    .footer{
+        display: inline;
+    }
+
+    .footer img{
+        width: 100%;
+    }
+
+    .logo-one{
+        width: 53.6px;
+    }
+
+    .instagram, .facebook, .vk, .whatsapp{
+        width: 15.38px;
+        margin-right: 10px
+    }
+
+    .phone{
+        margin-bottom: 1px;
+    }
+
+    .phone, .mail{
+        width: 12.58px;   
+    }
+
+    .contact-right{
+        justify-content: start;
+        padding: 0px;
+        margin-bottom: 52px;
+    }
+
+    .contact-logo{
+        margin-right: 10px;
+    }
+
+    .contact{
+        margin-top: 5px;
+    }
+
+    .contact p:first-child{
+        padding-bottom: 6px;
+    }
+
+    .contact p{
+        font-size: 12px;
+    }
+
+    .last p{
+        font-size: 10px;
+    }
+
+    .container-comment{
+        padding-left: 0px;
+        padding-top: 42px;
+        padding-bottom: 53px;
+        display: flex;
+        justify-content: center;
+    }
+    .comment-header h2{
+        font-size: 26px;
+        margin-bottom: 27px;
+    }
+
+    .user{
+        margin-left: 12px;
+        margin-top: 22px;
+        /* justify-content: space-between; */
+    }
+
+    .user-name{
+        width: 164.49px;
+        margin-top: 18px;
+        padding-left: 2px
+    }
+
+    .comment-header{
+        width: 257px;
+    }
+
+    .comment{
+        width: 308px;
+        height: 248px;
+        box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
+        border-radius: 13.9792px;
+        margin-left: 2px;
+    }
+
+    .comment-p{
+        font-size: 10px;
+        width: 266px;
+        height: 111.01px;
+        padding-left: 20px;
+        padding-top: 18px
+    }
+
+    .img-user{
+        width: 94px;
+        padding-right: 5px;
+    }
+
+    .user-name p{
+        font-size: 14px;
+    }
+
+    .img-face{
+        width: 15px;
+        margin-top: 19px;
+    }
+
+    .container-other{
+        padding-left: 2px;
+        padding-top: 62px;
+        padding-bottom: 70px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .start-date h2{
+        font-size: 26px;
+    }
+
+    .start-date{
+        width: 224px;
+        margin-bottom: 34px;
+    }
+
+    .price-info p{
+        font-size: 12px;
+    }
+
+    .price{
+        font-size: 37px !important;
+        margin-top: 2px;
+    }
+
+    .info-level{
+        font-size: 12px;
+        margin-bottom: 6px;
+    }
+
+    .info-course{
+        font-size: 10px;
+    }
+
+    .about-course{
+        margin-top: 35px;
+        width: 309px;
+        justify-content: space-between;
+    }
+
+    .info-left, .come-through{
+        width: 137px;
+    }
+
+
+    .come-through{
+        padding-left: 0px;
+        padding-right: 4px;
+    }
+
+    .info-course{
+        width: 140px;
+    }
+    /* Senem end */
 }
