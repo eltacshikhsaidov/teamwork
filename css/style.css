@@ -268,6 +268,34 @@ header .logo {
 
 /* Eltac end */
 
+/* Ceyhun start */
+.list {
+    font-family: 'Roboto Slab' ,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    color: #000000;
+    width: 667px;
+    height: 93px;
+    margin-top: 249px;
+    margin-left: 121px;
+}
+    
+ul {
+    margin-top: 21px;
+    margin-left:121px;
+    width: 662px;
+    height: 374px;
+}
+ul li {
+    font-family: 'Roboto' , sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #000000;
+}
+/* Ceyhun end */
+
 /* Arzu start */
 
 .container-a{
@@ -614,6 +642,34 @@ span{
     }
     /* Eltac end  */
 
+    /* Ceyhun start */
+    .list {
+        font-family: 'Roboto Slab' ,sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        color: #000000;
+        width: 386.3px;
+        height: 53.86px;
+        margin-top: 144.55px;
+        margin-left: 70.08px;
+    }
+            
+    ul {
+        margin-top: 12.16px;
+        margin-left:50px;
+        width: 383.41px;
+        height: 216.61px;
+    }
+    ul li {
+    font-family: 'Roboto' , sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #000000;
+    }
+    /* Ceyhun end */
+
     /* Arzu start */
 
     .text-top-a h2{
@@ -919,6 +975,33 @@ span{
         margin-bottom: 40px;
     }
     /* Eltac end */
+
+    /* Ceyhun start */
+    .list {
+        font-family: 'Roboto Slab' ,sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        color: #000000;
+        width: 310.8px;
+        height: 43.34px;
+        margin-top: 73px;
+        margin-left: 36px;
+    }
+        
+    ul {
+        margin-left: 10px;
+        margin-top: 9.66px;
+    }
+                
+    ul li {
+        font-family: 'Roboto' , sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        color: #000000;
+    }
+    /* Ceyhun end */
 
     /* Arzu start */
 
