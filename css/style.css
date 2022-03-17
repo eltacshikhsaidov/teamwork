@@ -107,6 +107,7 @@ header .logo {
     position: absolute;
     width: 21vw;
     max-width: 274px;
+    min-width: 128px;
     z-index: 0;
 }
 
@@ -130,7 +131,7 @@ header .logo {
 
 .blockquote .quote {
     font-family: 'Roboto Slab', serif;
-    font-size: 1.73vw;
+    font-size: clamp(10px, 1.73vw, 25px);
     font-weight: normal;
     line-height: 130%;
 }
@@ -885,7 +886,7 @@ span{
         flex-direction: column;
     }
     .hero-image .image-container {
-        left: 40vw;
+        left: 49vw;
     }
     .blockquote {
         margin-top: 50px;
@@ -897,6 +898,8 @@ span{
     .blockquote .author {
         font-size: 10px;
     }
+
+
     /* Eltac start */
     .right {
         padding-left: 0;
