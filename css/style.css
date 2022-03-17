@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@400;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,500;0,600;0,900;1,200&family=Roboto+Slab:wght@300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+
+@-ms-viewport{
+    width: device-width;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -107,6 +112,7 @@ header .logo {
     position: absolute;
     width: 21vw;
     max-width: 274px;
+    min-width: 128px;
     z-index: 0;
 }
 
@@ -130,7 +136,7 @@ header .logo {
 
 .blockquote .quote {
     font-family: 'Roboto Slab', serif;
-    font-size: 1.73vw;
+    font-size: clamp(10px, 1.73vw, 25px);
     font-weight: normal;
     line-height: 130%;
 }
@@ -897,6 +903,8 @@ span{
     .blockquote .author {
         font-size: 10px;
     }
+
+
     /* Eltac start */
     .right {
         padding-left: 0;
@@ -944,7 +952,7 @@ span{
         padding-top: 46px;
     }
     .box p {
-        font-size: 10px;
+        font-size: 10px;  
         line-height: 130%;
     }
     .box h2 {
@@ -986,12 +994,16 @@ span{
         color: #000000;
         width: 310.8px;
         height: 43.34px;
-        margin-top: 73px;
+        margin-top: -73px;
+        margin-left: 0px;
+    }
+
+    .esas{
         margin-left: 36px;
     }
         
     ul {
-        margin-left: 10px;
+        margin-left: 16px;
         margin-top: 9.66px;
     }
                 
@@ -1028,7 +1040,7 @@ span{
     }
     .text-a{
         padding:0 15px;
-        height: 14vh;
+        height: 11vh;
     }
     .text-a p{
         font-size: 12px;
