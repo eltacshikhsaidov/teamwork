@@ -952,7 +952,7 @@ span{
         padding-top: 46px;
     }
     .box p {
-        font-size: 10px;
+        font-size: 10px;  
         line-height: 130%;
     }
     .box h2 {
@@ -996,6 +996,10 @@ span{
         height: 43.34px;
         margin-top: 73px;
         margin-left: 36px;
+    }
+
+    .esas{
+        margin-left: 44px;
     }
         
     ul {
