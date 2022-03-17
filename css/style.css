@@ -970,6 +970,7 @@ span{
     .bottom-box p {
         font-size: 10px;
         line-height: 130%;
+        width: 180px;
     }
     .bottom-box h2 {
         font-size: 12px;
