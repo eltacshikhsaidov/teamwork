@@ -1109,6 +1109,9 @@ span{
 
     .contact-logo{
         margin-right: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
     .contact{
