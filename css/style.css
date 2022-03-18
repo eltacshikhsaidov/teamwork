@@ -1,0 +1,1255 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,500;0,600;0,900;1,200&family=Roboto+Slab:wght@300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+
+@-ms-viewport{
+    width: device-width;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: 'Roboto', sans-serif;
+    /* font-size: 1.38vw; */
+    font-size: clamp(10px, 1.38vw, 20px);
+}
+
+
+/* Jalal */
+
+.wrapper {
+    max-width: 84%;
+    margin: 0 auto;
+}
+
+
+/* HEADER */
+
+header {
+    margin-top: 16px;
+}
+
+header .logo {
+    width: 7.8vw;
+    min-width: 52px;
+}
+
+
+/* HERO SECTION */
+
+.hero-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+}
+
+.hero-content {
+    margin-left: 1.8%;
+}
+
+
+/* hero content */
+
+.content-top {
+    display: flex;
+    margin-left: -1.25rem;
+    margin-right: -1.25rem;
+}
+
+.column {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.content-top .top-logo {
+    width: 1.1rem;
+    margin-right: 0.3rem;
+}
+
+.row p {
+    display: inline;
+}
+
+.hero-section .content-review h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 5.6vw;
+    line-height: 101.38%;
+    margin-top: 1.5rem;
+    margin-bottom: 1.2rem;
+}
+
+.hero-section .content-review p {
+    line-height: 150%;
+}
+
+
+/* hero image */
+
+.hero-image .image-container {
+    position: relative;
+    display: inline-block;
+    top: 9.5%;
+    left: 13.5vw;
+}
+
+.hero-side-image {
+    width: 21vw;
+    min-width: 141px;
+    max-width: 305px;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.image-shadow-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.side-image-shadow {
+    position: absolute;
+    width: 21vw;
+    max-width: 274px;
+    min-width: 128px;
+    z-index: 0;
+}
+
+
+/* BLOCKQUOTE */
+
+.blockquote {
+    margin-top: 100px;
+    box-sizing: border-box;
+    background: #1E4681;
+    color: white;
+    border-radius: 5px;
+    width: calc(100vw/3);
+    max-width: 483.63px;
+    min-width: 225px;
+    max-height: 200px;
+    padding: 1.25rem;
+    margin: 177px auto;
+    margin-bottom: 0;
+}
+
+.blockquote .quote {
+    font-family: 'Roboto Slab', serif;
+    font-size: clamp(10px, 1.73vw, 25px);
+    font-weight: normal;
+    line-height: 130%;
+}
+
+.blockquote .author {
+    line-height: 130%;
+    text-align: right;
+}
+
+
+/* Jalal end */
+
+
+/* Eltac start */
+
+
+/*=========================== DESIGN FOR DESKTOP LAYOUT ===================================*/
+
+.second {
+    padding: 0 153px 0 121px;
+    margin: 173px 0 250px 0;
+}
+
+.top,
+.bottom,
+.boxes {
+    display: flex;
+}
+
+.heading2 {
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+    font-family: 'Roboto Slab';
+    padding-bottom: 89px;
+}
+
+.content2 {
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.right {
+    padding-top: 135px;
+    padding-left: 164px;
+    width: 304px;
+    height: 356px;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 52px;
+}
+
+.box {
+    height: 39px;
+    width: 150px;
+}
+
+.box h2 {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 130%;
+    padding-bottom: 10px;
+}
+
+.box p {
+    font-size: 18px;
+    line-height: 130%;
+}
+
+.box3 {
+    padding-right: calc(317px - 153px);
+}
+
+.person3 {
+    z-index: 1;
+}
+
+.ellipse3 {
+    padding-left: calc(154px - 121px);
+    z-index: 0;
+    margin-top: -15px;
+}
+
+.person2 {
+    padding-left: 10px;
+    z-index: 1;
+}
+
+.ellipse2 {
+    z-index: 0;
+    margin-top: -30px;
+    margin-right: -15px;
+}
+
+.images {
+    padding-right: 50px;
+}
+
+.images,
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-container {
+    margin-top: 162px;
+}
+
+.bottom-box {
+    padding-right: 122px;
+    height: 39px;
+    width: 271px;
+}
+
+.boxes {
+    flex-wrap: nowrap;
+}
+
+.bottom-box h2 {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 130%;
+    padding-bottom: 10px;
+    color: #1E4681;
+}
+
+.bottom-box p {
+    font-size: 18px;
+    line-height: 130%;
+}
+
+/* Eltac end */
+
+/* Ceyhun start */
+.list {
+    font-family: 'Roboto Slab' ,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    color: #000000;
+    width: 667px;
+    height: 93px;
+    margin-top: 249px;
+    margin-left: 121px;
+}
+    
+ul {
+    margin-top: 21px;
+    margin-left:138px;
+    width: 662px;
+    height: 374px;
+}
+ul li {
+    font-family: 'Roboto' , sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #000000;
+}
+/* Ceyhun end */
+
+/* Arzu start */
+
+.container-a{
+    padding: 0 87px;
+    margin-top: 12vw;
+}
+
+.text-top-a h2{
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+    margin-bottom: 133px;
+    margin-left: 34px;
+}
+
+.box-main-a{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+span{
+    display: block;
+}
+
+.box-a{
+    width: 29%;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 44px;
+    margin-left: 37px;
+    margin-bottom: 41px;
+}
+
+.text-a{
+    padding: 0px 18px;
+}
+
+.text-a h3{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 8px;
+}
+
+.text-a p{
+    font-size: 25px;
+    margin: 27px 0;
+}
+
+.last-p{
+    margin-top: -18px;
+}
+
+.last-h3{
+    line-height: 97%;
+}
+
+
+.image-a{
+    width: 100%;
+}
+
+.image-a img{
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+/* Arzu end */
+
+/* Senem start */
+.container-comment{
+    padding-left: 121px;
+    padding-top: 92px;
+    padding-bottom: 111px;
+    background-color: #EFEFEF;
+}
+
+.comment-header{
+    width: 987px;
+}
+
+.comment-header h2{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+    margin-bottom: 71px;
+}
+
+.comment{
+    background: #FFFFFF;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    width: 791px;
+    height: 451px;
+    margin-left: 4px;
+}
+
+.comment-p{
+    font-family: Roboto;
+    width: 700px;
+    height: 203px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    padding-top: 40px;
+    padding-left: 45px;
+    margin: 0px;
+}
+
+.user{
+    display: flex;
+    margin-left: 26px;
+    margin-top: 10px;
+}
+
+.img-user{
+    width: 190px;
+    height: 169px;
+    padding-right: 31px;
+}
+
+.img-face{
+    width: 32px;
+    height: 31px;
+    margin-top: 28px;
+}
+
+.image4{
+    width: 100%;
+}
+
+.user-name{
+    width: 353px;
+    height: 59px;
+    margin-top: 41px;
+}
+
+.user-name p{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 101.38%;
+}
+
+.container-other{
+    background-color: #9DC9C8;
+    padding-left: 121px;
+    padding-top: 180px;
+    padding-bottom: 200px;
+}
+
+.start-date h2{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+    /* margin-bottom: 64px; */
+}
+
+.start-date{
+    margin-bottom: 64px;
+}
+
+.price-info p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 101.38%;
+}
+
+.price{
+    font-size: 80px !important;
+    margin-top: 6px;
+}
+
+.about-course{
+    display: flex;
+    margin-top: 74px;
+}
+
+.info-level{
+    font-size: 25px;
+    margin-bottom: 15px;
+    line-height: 101.38%;
+}
+
+.info-course{
+    font-size: 18px;
+    line-height: 101.38%;
+}
+
+.info-left, .come-through{
+    width: 294px;
+}
+
+.come-through{
+    padding-left: 70px;
+}
+
+.last-container{
+    background-color: black;
+    color: white;
+    padding-left: 121px;
+    padding-top: 50px;
+    padding-bottom: 43px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-one{
+    width: 115px;
+}
+
+.logo-one img{
+    width: 100%;
+}
+
+.sosial-media{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 26px;
+    margin-bottom: 140px;
+} 
+
+.contact-right{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 88px;
+    padding-top: 6px;
+}
+
+.phone{
+    margin-bottom: 20px;
+}
+
+.contact p{
+    font-size: 25px;
+}
+
+.sosial-media img{
+    margin-right: 21px;
+}
+
+.last p{
+    font-size: 18px;
+}
+
+.contact-logo{
+    margin-right: 20px;
+}
+
+.contact p:first-child{
+    padding-bottom: 13px;
+}
+
+/* Senem end */
+
+
+/* Screen Adaptation */
+
+@media screen and (max-width: 1279px) {
+    * {
+        font-size: 12px;
+        font-size: 1.43vw;
+    }
+    header {
+        margin-top: 22px;
+    }
+    .blockquote {
+        margin-top: 70px;
+    }
+    /* Eltac start */
+    .second {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .heading2 {
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 101.38%;
+        padding-bottom: 52px;
+    }
+    .content2 {
+        font-size: 14px;
+        line-height: 150%;
+    }
+    .right {
+        width: 181.86px;
+        height: 182.44px;
+        padding-top: 75px;
+        padding-left: 95px;
+    }
+    .ellipse2 {
+        margin-top: -15px;
+        margin-right: -12px;
+    }
+    /* bottom */
+    .box p {
+        font-size: 11px;
+        line-height: 130%;
+    }
+    .box h2 {
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 130%;
+        padding-bottom: 5px;
+    }
+    .person3 {
+        width: 134.37px;
+        height: 117.57px;
+    }
+    .ellipse3 {
+        width: 109.46px;
+        height: 18.53px;
+        margin-top: -10px;
+        margin-left: -12px;
+    }
+    .box {
+        padding-right: 15px;
+    }
+    .box3 {
+        margin-right: 85px;
+    }
+    .bottom-container {
+        margin-top: 104px;
+    }
+    .bottom-box p {
+        font-size: 11px;
+        line-height: 130%;
+    }
+    .bottom-box h2 {
+        font-size: 15px;
+        line-height: 130%;
+    }
+    /* Eltac end  */
+
+    /* Ceyhun start */
+
+
+    .esas {
+        margin-left: 51px;
+        margin-bottom: 130px;
+    }
+
+    .list {
+        font-family: 'Roboto Slab' ,sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        color: #000000;
+        width: 386.3px;
+        height: 53.86px;
+        margin-top: 144.55px;
+        margin-left: 70.08px;
+    }
+            
+    ul {
+        margin-top: 12.16px;
+        margin-left:89px;
+        width: 383.41px;
+        height: 216.61px;
+    }
+    ul li {
+    font-family: 'Roboto' , sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #000000;
+    }
+    /* Ceyhun end */
+
+    /* Arzu start */
+
+    .text-top-a h2{
+        font-size: 32px;
+        margin-bottom: 77px;
+        margin-left: 24px;
+    }
+    .box-a{
+        background: #FFFFFF;
+        box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
+        border-radius: 28px;
+        margin-left: 22px;
+        margin-bottom: 24px;
+    }
+    .text-a h3{
+        font-size: 17px;
+    }
+    
+    .text-a p{
+        font-size: 14px;
+        margin: 21px 0;
+    }
+    .image-a img{
+        border-top-left-radius: 28px;
+        border-top-right-radius: 28px;
+    }
+    .container-a{
+        padding: 0 95px;
+    }
+    .text-a{
+        padding: 0px 9px;
+    }
+
+    /* Arzu end */
+
+    /* Senem start */
+    .last-container{
+        padding-left: 72px;
+        padding-top: 29px;
+        padding-bottom: 26px;
+    }
+
+    .sosial-media{
+        margin-top: 14px;
+        margin-bottom: 78px;
+        justify-content: space-between;
+    } 
+
+    .footer img{
+        width: 100%;
+    }
+
+    .logo-one{
+        width: 66.6px;
+    }
+
+    .instagram, .facebook, .vk, .whatsapp{
+        width: 19.69px;
+        margin-right: 11px;
+    }
+
+    .contact-right{
+        padding-right: 340px;
+        padding-top: 4px;
+    }
+
+    .phone{
+        margin-bottom: 5px;
+    }
+
+    .contact-logo{
+        margin-right: 13px;
+    }
+
+    .contact p:first-child{
+        padding-bottom: 9px;
+    }
+
+    .phone, .mail{
+        width: 15.64px;   
+    }
+
+    .contact p{
+        font-size: 14px;
+    }
+
+    .last p{
+        font-size: 10px;
+    }
+
+    .container-comment{
+        padding-left: 70px;
+        padding-top: 54px;
+        padding-bottom: 64px;
+    }
+
+    .comment-header{
+        width:  571.64px;
+    }
+
+    .comment-header h2{
+        font-size: 32px;
+        margin-bottom: 42px;
+    }
+
+    .comment{
+        box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
+        border-radius: 17.375px;
+        width: 458.12px;
+        height: 261.2px;
+        margin-left: 3px;
+    }
+
+    .comment-p{
+        font-size: 12px;
+        width: 405.42px;
+        height: 117.57px;
+        padding-left: 26px;
+        padding-top: 23px;
+    }
+
+    .user{
+        margin-left: 16px;
+        margin-top: 5px;
+    }
+
+    .img-user{
+        width: 110px;
+        padding-right: 5px;
+    }
+
+    .img-face{
+        width: 18.53px;
+        height: 17.95px;
+        margin-top: 17px;
+    }
+
+    .user-name p{
+        font-size: 17px;
+    }
+
+    .user-name{
+        width: 204.45px;
+        margin-top: 23px;
+        padding-left: 11px;
+    }
+
+    .container-other{
+        padding-left: 70px;
+        padding-top: 104px;
+        padding-bottom: 118px;
+    }
+
+    .start-date h2{
+        font-size: 32px;
+    }
+
+    .start-date{
+        margin-bottom: 38px;
+    }
+
+    .price-info p{
+        font-size: 14px;
+    }
+
+    .price{
+        font-size: 46px !important;
+        margin-top: 2px;
+    }
+
+    .info-level{
+        font-size: 14px;
+    }
+
+    .info-course{
+        font-size: 10px;
+    }
+
+    .about-course{
+        margin-top: 45px;
+    }
+
+    .info-left, .come-through{
+        width: 163px;
+    }
+
+    .come-through{
+        padding-left: 49px;
+    }
+    
+    .info-level{
+        margin-bottom: 8px;
+ 
+   }
+
+    /* Senem end */
+    
+}
+
+@media screen and (max-width: 991px) and (min-width: 320px) {
+    * {
+        font-size: max(2vw, 10px);
+    }
+    header {
+        margin-top: 36px;
+    }
+    .hero-section .content-review h1 {
+        font-size: max(9.9vw, 37px);
+    }
+    .hero-section {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .hero-image .image-container {
+        left: 40vw;
+    }
+    .blockquote {
+        margin-top: 50px;
+        margin-left: 0;
+    }
+    .blockquote .quote {
+        font-size: 11px;
+    }
+    .blockquote .author {
+        font-size: 10px;
+    }
+
+
+    /* Eltac start */
+    .right {
+        padding-left: 0;
+    }
+    .second {
+        padding: 0 30.53px 0 36px;
+        margin-top: 75px;
+        
+    }
+    .heading2 {
+        font-family: 'Roboto Slab';
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 101.38%;
+        padding-bottom: 36px;
+    }
+    .content2 {
+        font-size: 12px;
+        line-height: 150%;
+    }
+    .top {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .person2 {
+        width: 146.32px;
+        height: 146.78px;
+    }
+    .ellipse2 {
+        margin-right: 12px;
+    }
+    /* bottom */
+    .images {
+        display: none;
+    }
+    .bottom {
+        padding: 0;
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+    .box {
+        width: 86.89px;
+        height: 18.5px;
+        padding-top: 46px;
+    }
+    .box p {
+        font-size: 10px;  
+        line-height: 130%;
+    }
+    .box h2 {
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 130%;
+    }
+    .bottom-container {
+        margin-top: 76px;
+    }
+    /* .bottom-box {
+        height: 18;
+        width: 86;
+    } */
+    .bottom-box p {
+        font-size: 10px;
+        line-height: 130%;
+        width: 180px;
+    }
+    .bottom-box h2 {
+        font-size: 12px;
+        line-height: 130%;
+    }
+    .boxes {
+        flex-wrap: wrap;
+    }
+    .bottom-box {
+        padding-right: 50px;
+        margin-bottom: 40px;
+    }
+    /* Eltac end */
+
+    /* Ceyhun start */
+    .list {
+        font-family: 'Roboto Slab' ,sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        color: #000000;
+        width: 310.8px;
+        height: 43.34px;
+        margin-top: -73px;
+        margin-left: 0px;
+    }
+
+    .esas{
+        margin-left: 36px;
+        margin-bottom: -20px;
+    }
+        
+    ul {
+        margin-left: 16px;
+        margin-top: 9.66px;
+    }
+                
+    ul li {
+        font-family: 'Roboto' , sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        color: #000000;
+    }
+    /* Ceyhun end */
+
+    /* Arzu start */
+
+    .container-a{
+        padding: 0 50px;
+    }
+    .text-top-a h2{
+        font-size: 26px;
+        margin-bottom: 35px;
+        margin-left: 0;
+    }
+    .box-a{
+        width: 60%;
+        background: #FFFFFF;
+        box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
+        border-radius: 23px;
+    }
+   .box-main-a{
+       justify-content: center;
+   }
+    .text-a h3{
+        font-size: 14px;
+    }
+    .text-a{
+        padding:0 15px;
+        height: 11vh;
+    }
+    .text-a p{
+        font-size: 12px;
+        margin: 10px 0;
+    }
+    .image-a img{
+        border-top-left-radius: 17.375px;
+        border-top-right-radius: 17.375px;
+    }
+    .last-p{
+        margin-top: 0;
+    }
+
+    /* Arzu end */
+
+    /* Senem start */
+    .last-container{
+        display: flex;
+        justify-content: center;
+        padding-left: 0px;
+        padding-top: 23px;
+        padding-bottom: 19px;
+    }
+
+    .wrapper-footer{
+        width: 300px;
+    }
+
+    .sosial-media{
+        margin: 0px;
+        margin-top: 11px;
+        margin-bottom: 40px;
+        justify-content: start;
+    }
+
+    .footer{
+        display: inline;
+    }
+
+    .footer img{
+        width: 100%;
+    }
+
+    .logo-one{
+        width: 53.6px;
+    }
+
+    .instagram, .facebook, .vk, .whatsapp{
+        width: 15.38px;
+        margin-right: 10px
+    }
+
+    .phone{
+        margin-bottom: 1px;
+    }
+
+    .phone, .mail{
+        width: 12.58px;   
+    }
+
+    .contact-right{
+        justify-content: start;
+        padding: 0px;
+        margin-bottom: 52px;
+    }
+
+    .contact-logo{
+        margin-right: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .contact{
+        margin-top: 5px;
+    }
+
+    .contact p:first-child{
+        padding-bottom: 6px;
+    }
+
+    .contact p{
+        font-size: 12px;
+    }
+
+    .last p{
+        font-size: 10px;
+    }
+
+    .container-comment{
+        padding-left: 0px;
+        padding-top: 42px;
+        padding-bottom: 53px;
+        display: flex;
+        justify-content: center;
+    }
+    .comment-header h2{
+        font-size: 26px;
+        margin-bottom: 27px;
+    }
+
+    .user{
+        margin-left: 12px;
+        margin-top: 22px;
+        /* justify-content: space-between; */
+    }
+
+    .user-name{
+        width: 164.49px;
+        margin-top: 18px;
+        padding-left: 2px
+    }
+
+    .comment-header{
+        width: 257px;
+    }
+
+    .comment{
+        width: 308px;
+        height: 248px;
+        box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
+        border-radius: 13.9792px;
+        margin-left: 2px;
+    }
+
+    .comment-p{
+        font-size: 10px;
+        width: 266px;
+        height: 111.01px;
+        padding-left: 20px;
+        padding-top: 18px
+    }
+
+    .img-user{
+        width: 94px;
+        padding-right: 5px;
+    }
+
+    .user-name p{
+        font-size: 14px;
+    }
+
+    .img-face{
+        width: 15px;
+        margin-top: 19px;
+    }
+
+    .container-other{
+        padding-left: 2px;
+        padding-top: 62px;
+        padding-bottom: 70px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .start-date h2{
+        font-size: 26px;
+    }
+
+    .start-date{
+        width: 224px;
+        margin-bottom: 34px;
+    }
+
+    .price-info p{
+        font-size: 12px;
+    }
+
+    .price{
+        font-size: 37px !important;
+        margin-top: 2px;
+    }
+
+    .info-level{
+        font-size: 12px;
+        margin-bottom: 6px;
+    }
+
+    .info-course{
+        font-size: 10px;
+    }
+
+    .about-course{
+        margin-top: 35px;
+        width: 309px;
+        justify-content: space-between;
+    }
+
+    .info-left, .come-through{
+        width: 137px;
+    }
+
+
+    .come-through{
+        padding-left: 0px;
+        padding-right: 4px;
+    }
+
+    .info-course{
+        width: 140px;
+    }
+    /* Senem end */
+}
