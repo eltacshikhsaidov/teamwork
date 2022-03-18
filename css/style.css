@@ -306,6 +306,7 @@ ul li {
 
 .container-a{
     padding: 0 87px;
+    margin-top: 12vw;
 }
 
 .text-top-a h2{
@@ -652,7 +653,8 @@ span{
 
 
     .esas {
-        margin-left: 121px;
+        margin-left: 51px;
+        margin-bottom: 130px;
     }
 
     .list {
