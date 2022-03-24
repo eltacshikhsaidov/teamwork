@@ -281,7 +281,6 @@ header .logo {
     font-weight: bold;
     font-size: 55px;
     color: #000000;
-    width: 667px;
     height: 93px;
     margin-top: 249px;
     margin-left: 121px;
@@ -290,7 +289,6 @@ header .logo {
 ul {
     margin-top: 21px;
     margin-left:138px;
-    width: 662px;
     height: 374px;
 }
 ul li {
@@ -653,8 +651,8 @@ span{
 
 
     .esas {
-        margin-left: 51px;
-        margin-bottom: 130px;
+        padding-left: 48px;
+        margin-bottom: 100px;
     }
 
     .list {
@@ -663,7 +661,6 @@ span{
         font-weight: bold;
         font-size: 32px;
         color: #000000;
-        width: 386.3px;
         height: 53.86px;
         margin-top: 144.55px;
         margin-left: 70.08px;
@@ -672,7 +669,6 @@ span{
     ul {
         margin-top: 12.16px;
         margin-left:89px;
-        width: 383.41px;
         height: 216.61px;
     }
     ul li {
@@ -1000,15 +996,13 @@ span{
         font-weight: bold;
         font-size: 26px;
         color: #000000;
-        width: 310.8px;
         height: 43.34px;
         margin-top: -73px;
         margin-left: 0px;
     }
 
     .esas{
-        margin-left: 36px;
-        margin-bottom: -20px;
+        padding: 0 30.53px 0 36px;
     }
         
     ul {
@@ -1036,7 +1030,7 @@ span{
         margin-left: 0;
     }
     .box-a{
-        width: 60%;
+        width: 70%;
         background: #FFFFFF;
         box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
         border-radius: 23px;
@@ -1045,14 +1039,14 @@ span{
        justify-content: center;
    }
     .text-a h3{
-        font-size: 14px;
+        font-size: max(2vw,14px);
     }
     .text-a{
         padding:0 15px;
-        height: 11vh;
+        height: 13vh;
     }
     .text-a p{
-        font-size: 12px;
+        font-size: max(2vw,10px);
         margin: 10px 0;
     }
     .image-a img{
@@ -1252,4 +1246,16 @@ span{
         width: 140px;
     }
     /* Senem end */
+}
+@media screen and (max-width: 991px) and (min-width: 580px){
+    .box-a{
+        width: 55%;
+        border-top-left-radius: 38px;
+        border-top-right-radius: 38px;
+        margin-bottom: 41px;
+    }
+    .text-a{
+        padding:0 15px;
+        height: 16vh;
+    }
 }
