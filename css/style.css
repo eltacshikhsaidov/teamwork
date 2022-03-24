@@ -1043,7 +1043,7 @@ span{
     }
     .text-a{
         padding:0 15px;
-        height: 13vh;
+        height: 11vh;
     }
     .text-a p{
         font-size: max(2vw,10px);
@@ -1248,6 +1248,7 @@ span{
     /* Senem end */
 }
 @media screen and (max-width: 991px) and (min-width: 580px){
+    /* Arzu start*/
     .box-a{
         width: 55%;
         border-top-left-radius: 38px;
@@ -1258,4 +1259,6 @@ span{
         padding:0 15px;
         height: 16vh;
     }
+    /* Arzu end*/
+    
 }
