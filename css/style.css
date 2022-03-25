@@ -1149,7 +1149,6 @@ span{
     .user{
         margin-left: 12px;
         margin-top: 22px;
-        /* justify-content: space-between; */
     }
 
     .user-name{
@@ -1262,4 +1261,142 @@ span{
     }
     /* Arzu end*/
     
+    /* Senem start */
+    .wrapper-footer{
+        width: 500px;
+    }
+
+    .sosial-media{
+        margin-top: 14px;
+        margin-bottom: 78px;
+    } 
+
+    .footer{
+        display: flex;
+    }
+
+    .footer img{
+        width: 100%;
+    }
+
+    .logo-one{
+        width: 66.6px;
+    }
+
+    .instagram, .facebook, .vk, .whatsapp{
+        width: 19.69px;
+    }
+
+    .phone, .mail{
+        width: 15.64px;   
+    }
+
+    .contact-logo{
+        height: 44px;
+    }
+
+    .contact p{
+        font-size: 14px;
+    }
+
+    .last p{
+        font-size: 10px;
+    }
+
+    .user-comment{
+        width: 500px;
+    }
+
+    .comment-header{
+        width: 300px;
+    }
+
+    .comment-header h2{
+        font-size: 32px;
+        margin-bottom: 42px;
+    }
+
+    .comment{
+        width: 458.12px;
+        height: 261.2px;
+        margin-left: 3px;
+    }
+
+    .comment-p{
+        font-size: 12px;
+        width: 405.42px;
+        height: 117.57px;
+        padding-left: 26px;
+        padding-top: 23px;
+    }
+
+    .user{
+        margin-left: 16px;
+        margin-top: 5px;
+    }
+
+    .img-user{
+        width: 110px;
+        padding-right: 5px;
+    }
+
+    .img-face{
+        width: 18.53px;
+        height: 17.95px;
+        margin-top: 17px;
+    }
+
+    .user-name p{
+        font-size: 17px;
+    }
+
+    .user-name{
+        width: 204.45px;
+        margin-top: 23px;
+        padding-left: 11px;
+    }
+
+    .start-date h2{
+        font-size: 32px;
+    }
+
+    .start-date{
+        width: 500px;
+        margin-bottom: 38px;
+    }
+
+    .price-info p{
+        font-size: 14px;
+    }
+
+    .price{
+        font-size: 46px !important;
+        margin-top: 2px;
+    }
+
+    .info-level{
+        font-size: 14px;
+    }
+
+    .info-course{
+        width: 163px;
+        font-size: 10px;
+    }
+
+    .about-course{
+        margin-top: 45px;
+    }
+
+    .info-left, .come-through{
+        width: 163px;
+    }
+
+    .come-through{
+        padding-left: 49px;
+    }
+    
+    .info-level{
+        margin-bottom: 8px;
+    }
+    /* Senem end */
 }
